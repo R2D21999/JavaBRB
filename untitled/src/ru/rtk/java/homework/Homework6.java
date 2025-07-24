@@ -11,12 +11,12 @@ public class Homework6 {
 
 
         String[] words = stroka.split(" ");
-           for (int i = 0; i < words.length; i = i + 1) {
-                //
-              String lowerWord = words[i].toLowerCase();
-              char[] chars = lowerWord.toCharArray();
-              Arrays.sort(chars);
-              words[i] = new String(chars);
+        for (int i = 0; i < words.length; i = i + 1) {
+
+            String lowerWord = words[i].toLowerCase(); // регистр
+            char[] chars = lowerWord.toCharArray();
+            Arrays.sort(chars); //сортировка
+            words[i] = new String(chars);
         }
 
         System.out.println(String.join(" ", words));
