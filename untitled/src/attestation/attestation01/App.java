@@ -27,7 +27,8 @@ public class App {
                 new Product("Молоко", 60),
                 new Product("Торт", 1000),
                 new Product("Кофе растворимый", 879),
-                new Product("Масло", 150)
+                new Product("Масло", 150),
+                new Product("Мороженное",200)
         };
 
         System.out.println("Продукты в наличии:");
