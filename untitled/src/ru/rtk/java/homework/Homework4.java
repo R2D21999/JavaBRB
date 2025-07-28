@@ -6,7 +6,7 @@ public class Homework4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String stroka = "qwertyuiopasdfghjklzxcvbnm";
-        System.out.println("Введите букву:");
+        System.out.println("Введите маленькую букву  английского алфавита:");
         char inputChar = scanner.next().charAt(0);
         int index = stroka.indexOf(inputChar);
         int predIndex;
